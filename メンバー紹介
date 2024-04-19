@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メンバー紹介サイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+        .member {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            overflow: hidden;
+        }
+        .member img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>メンバー紹介サイト</h1>
+    </header>
+    <div class="container">
+        <div class="member">
+            <img src="member1.jpg" alt="メンバー1">
+            <div>
+                <h2>メンバー1</h2>
+                <p>役職: 役職1</p>
+                <p>簡単な紹介文: メンバー1の紹介文がここに入ります。彼/彼女の役割やスキルなどについて述べます。</p>
+            </div>
+        </div>
+        <div class="member">
+            <img src="member2.jpg" alt="メンバー2">
+            <div>
+                <h2>メンバー2</h2>
+                <p>役職: 役職2</p>
+                <p>簡単な紹介文: メンバー2の紹介文がここに入ります。彼/彼女の役割やスキルなどについて述べます。</p>
+            </div>
+        </div>
+        <!-- 他のメンバーを追加 -->
+    </div>
+</body>
+</html>
